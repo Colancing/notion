@@ -110,7 +110,11 @@ h1 {
 <script>
     function date() {
 var today = new Date();
-document.getElementById('date').innerHTML = today.toDateString();
+//document.getElementById('date').innerHTML = today.toDateString();
+    
+document.getElementById('date').innerHTML = today.tolocaleDateString('fr-FR);
+
+//return date.toLocaleDateString('fr-FR', options);
 }
 
 
