@@ -122,7 +122,7 @@ function clock() {
 var today = new Date();
 var hour = zeros(twelveHour(today.getHours()));
 var minutes = zeros(today.getMinutes());
-var seconds = ' ';
+var seconds = zeros(today.getSeconds());;
 if(today.getHours() >=12){
     seconds+=" pm"
 }
