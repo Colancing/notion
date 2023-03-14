@@ -155,10 +155,11 @@ if (hrs < 12)
     else if (hrs >= 22 && hrs <= 24)
         greet = 'Pour pouvoir contempler un arc-en-ciel, il faut accepter la pluie. ';
 
-document.getElementById('greet').innerHTML = greet;
 document.getElementById('hour').innerHTML = hour;
 document.getElementById('min').innerHTML = minutes;
 document.getElementById('sec').innerHTML = seconds;
+document.getElementById('greet').innerHTML = greet;
+
 }
 
 function twelveHour(hour) {
